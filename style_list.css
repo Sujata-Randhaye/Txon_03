@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right bottom, #057178, white, #7f1828);
+  background-size: 100% 355%;
+  background-repeat: no-repeat;
+}
+
+#heading {
+  padding: -8px;
+  text-align: center;
+  font-family: cursive;
+  background-color: #a780eb;
+  width: 29%;
+  margin: 18px 22px 18px 545px;
+  font-size: 29px;
+  color: white;
+  align-items: center;
+  border: 10px groove #87745a;
+  box-shadow: 1px 17px 34px 12px whitesmoke;
+  height: -22%;
+}
+
+.box {
+  font-size: 29px;
+  height: 59px;
+  width: 374px;
+  padding: 11px;
+  border: 2px solid black;
+  color: #060606;
+  background-blend-mode: luminosity;
+  border-radius: 6px;
+}
+
+#header {
+  text-align: center;
+  padding: 23px;
+  background-color: grey;
+  margin-top: 10px;
+  margin-right: 437px;
+  box-shadow: 2px 25px 30px 9px black;
+  margin-left: 437px;
+  position: relative;
+  left: -2px;
+  top: 57px;
+}
+
+#addbtn {
+  height: 51px;
+  width: 89px;
+  font-size: 27px;
+  box-shadow: 0px 4px 4px black;
+  background-color: #1efb25;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+#addbtn:active {
+  box-shadow: 4px 4px black;
+  transform: translateZ(2px)
+}
+
+#tasks {
+  border-radius: 10px;
+  width: 39%;
+  position: relative;
+  background-color: none;
+  padding: 30px 20px;
+  margin-top: 111px;
+  left: 466px;
+}
+
+.task {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000000;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff01d9, #56dee5, #000000e0, grey, white, transparent);
+  height: 67px;
+  margin-bottom: 8px;
+  border-style: solid;
+  box-shadow: 0px 2px darkslategrey;
+  padding: 5px 10px;
+  padding-left: 44px;
+  display: flex;
+}
+
+.task span {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: white;
+}
+
+.task button {
+  box-shadow: 2px 2px 2px 2px grey;
+  background-color: #260e3a;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  outline: none;
+  height: 89%;
+  width: 57px;
+  border-radius: 16px;
+  font-size: 24px;
+}
+
+#bullet {
+  color: #000000;
+}
