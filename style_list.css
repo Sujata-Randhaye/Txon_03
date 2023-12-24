@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* CSS */
 body {
   background: linear-gradient(to right bottom, #057178, white, #7f1828);
   background-size: 100% 355%;
